@@ -29,6 +29,7 @@ Black carbon is the project's organizing pollutant for the reasons in Part 1: it
 It helps to separate EDF's own deliverables (Aim 4 and our part of Aim 5) from the partner-led outputs.
 
 EDF's deliverables, the work you will be closest to, include:
+
 - the emissions-to-air-quality modeling for the policy scenarios, run in InMAP in coordination with UW, producing annual-average black carbon and PM2.5 concentration fields across the metro area under baseline and under PECC and PIGECA intervention scenarios;
 - the health impact assessment itself: neighborhood-scale estimates of black-carbon- and PM2.5-attributable mortality and morbidity, including sensitivity analyses and results stratified by age, sex, socioeconomic status, and disease;
 - an environmental justice analysis of how the health risks and the policy benefits are distributed across communities;
@@ -41,6 +42,7 @@ Partner-led outputs that EDF supports but does not own include the build-out of 
 ### 3.2.4 Who does what (project structure)
 
 The EDF team and its roles, with the effort levels from the work plan, are:
+
 - Veronica Southerland (Scientist, Global Clean Air), about 25% effort: overall EDF lead, coordinates Aim 4, leads the health impact assessment design and the equity analysis, is the primary liaison to the Clean Air Institute, leads on manuscripts, and handles science-to-policy translation. Your direct mentor.
 - Sergio Sanchez (Senior Policy Director, Clean Air and Health), about 5% effort: leads stakeholder engagement, the advisory-board workshops, the policy briefs, and government liaison. Mexico-based.
 - Tammy Thompson (Senior Air Quality Scientist), about 5% effort: her involvement is limited specifically to InMAP modeling coordination with UW.
@@ -75,6 +77,7 @@ flowchart TD
 Your role is scoped to EDF's science support and project coordination, not the entire multi-partner project and not the parts that belong to the subcontractors (UW does the InMAP runs, the Clean Air Institute does the emissions inventory, and the software developer builds the tool). Your science half centers on the health impact assessment and everything feeding it: literature synthesis, data management, the analysis itself, and manuscript preparation, all working directly with me. Your programmatic half is project coordination: tracking deliverables, supporting meetings, and helping keep the EDF, UW, CAI, and INSP threads moving. That coordination work is genuinely valuable, not busywork.
 
 Concretely, the work plan has you stepping into a specific sequence. Because you start in July 2026, which is Month 4 of the project, your first real task is the concentration-response function (CRF) literature review: identifying and documenting candidate Mexico-relevant CRFs for the health endpoints we will use (all-cause and cardiovascular mortality, cardiovascular emergency-department visits and hospitalizations, and respiratory hospitalizations). From there your first several months map roughly to:
+
 - August to October 2026: helping design and then finalize the HIA methodology document (defining health endpoints, data sources, the log-linear health impact function, and the population-data strategy), and finalizing the CRF selection.
 - November 2026: producing preliminary health benefit estimates for the first PECC scenarios.
 - December 2026: building out the economic valuation framework with me.
@@ -134,6 +137,7 @@ These are the primary-source policy documents and methods references behind the 
 - Our own global cities methods papers (Southerland 2022; Anenberg 2022, in the Part 1 reading list) are the closest published examples of the HIA methods we will apply here.
 
 A quick orientation to the key inputs and parameters the work plan specifies, so the data names are familiar when you meet them:
+
 - Emissions: the 2018 Monterrey Metropolitan Area emissions inventory from the Clean Air Institute, covering PM10, PM2.5, NOx, SO2, CO, VOC, NH3, black carbon, CO2, CH4, and N2O across source categories. This is the baseline for the scenarios.
 - Policy actions: PECC contains on the order of 141 mitigation actions, and PIGECA (2024) carries its own emission-reduction assessments; the early Aim 4 work maps these actions to emission source categories to build the scenarios.
 - Population: municipality-level data from INEGI (Mexico's national statistics institute).
@@ -150,6 +154,7 @@ Almost everything we do is spatial: concentrations on a grid, people on a grid, 
 The core mental model. A health impact assessment is, geometrically, a stack of aligned map layers: a concentration surface, a population surface, a baseline-disease-rate layer, and administrative boundaries. The analysis is largely about getting those layers onto a common grid and projection, multiplying them together cell by cell, and summing within the units you care about (a neighborhood, a municipality, the whole metro area). If you understand that you are stacking and combining aligned rasters and polygons, you understand the spatial part of the method.
 
 Concepts worth knowing early:
+
 - Raster versus vector. Rasters are gridded surfaces (concentration fields, population grids, satellite products). Vectors are points, lines, and polygons (monitor locations, roads, administrative boundaries). HIA mixes both.
 - Coordinate reference systems and projections. Layers must share a projection before you combine them. Mismatched projections are the most common source of silent error. Area-preserving projections matter when you are summing population or area.
 - Resolution and the modifiable areal unit problem. Results depend on the spatial scale of your inputs. As discussed in Part 2, coarse inputs average away inequities. The "modifiable areal unit problem" is the formal name for the fact that how you draw and size your units changes your answers, something to be deliberate about.
@@ -178,6 +183,7 @@ EDF's value-add is to push that national analysis to a subnational, equity-focus
 ### How the projects connect
 
 Why these are one program rather than three unrelated grants:
+
 - Shared scientific spine. LIMPIO (methane and ozone), Monterrey (black carbon and PM2.5), and the Brazil work (the full SLCP set) are all applications of the same exposure-to-health-to-economics pipeline from Part 2, to short-lived climate pollutants, in Latin America.
 - Shared strategic frame: co-benefits. Each project is built on the premise that climate action and clean air action are the same action, and that quantifying the health benefit strengthens the policy case. That frame is what makes the work fundable by health funders like the Wellcome Trust and relevant to climate ministries at the same time.
 - Shared equity emphasis. All three insist on subnational, distributional analysis, not just national totals, because the point is to show who is exposed and who benefits, and to inform interventions accordingly.
@@ -190,6 +196,7 @@ Understanding those connections will help you see how your Monterrey work fits a
 One thing shapes everything here. EDF is not a university department, it is an environmental organization whose purpose is to change real-world decisions. The science we do is rigorous because it has to be, but it is not done for its own sake. It is done so that a finance ministry, a state government, an air quality authority, or a community group can act differently. That orientation, science in service of decisions, is the difference between our work and a purely academic project, and it should inform how you approach your own pieces.
 
 Who the audiences are. A single analysis usually has to speak to several audiences at once, and they care about different things:
+
 - Federal decision-makers (SEMARNAT and the owners of the PECC) care about national climate and air commitments and how interventions perform.
 - State and municipal government in Nuevo León (and the air quality authority behind PIGECA) care about local, actionable choices: which interventions, where, with what local benefit.
 - INSP and the health sector care about the health evidence and its credibility.
@@ -198,15 +205,18 @@ Who the audiences are. A single analysis usually has to speak to several audienc
 - The funder (Wellcome Trust) cares about impact and rigor together.
 
 The output types and their registers. Part of translation is choosing the right vehicle and pitching it correctly. The same underlying analysis becomes:
+
 - a peer-reviewed manuscript (for scientific credibility; long, technical, slow, and the foundation everything else cites);
 - a policy brief (for decision-makers; short, leads with the decision-relevant finding, light on method, heavy on "so what" and "what to do"). The project produces four of these, and you will contribute inputs;
 - a technical report (for documentation and for partners who need the full method);
 - the interactive online tool (decision support people can use themselves);
 - community-facing materials and infographics (accessible, often bilingual);
 - conference presentations (for the scientific community, for example ISEE and AGU).
+
 A common newcomer instinct is to write everything like a methods section. The skill is moving fluidly between registers: the same result stated for a modeler, for a minister, and for a community member reads very differently.
 
 The craft of translation. A few moves recur in our work:
+
 - Lead with the decision-relevant finding, not the method. For a policymaker, "intervention X avoids roughly N deaths a year, worth $Y" comes first; the modeling comes later or in an appendix.
 - Monetize, because finance and planning ministries think in costs and benefits. This is why the value-of-a-statistical-life and cost-of-illness work in Part 2 matters: it puts health into the language of budgets.
 - Disaggregate to who and where. "This neighborhood benefits most" is far more actionable for a city than a metro-wide average. The equity and neighborhood-scale analysis is not just scientifically richer, it is what makes results usable locally.

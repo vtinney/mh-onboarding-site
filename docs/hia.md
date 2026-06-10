@@ -20,9 +20,11 @@ Each ingredient matters, and it is easy to over-focus on exposure and overlook t
 Exposure (the concentration term). Ideally we want the long-term average concentration each person breathes. We never have that exactly, so we estimate it, usually as a gridded surface of annual-average concentrations that we overlay on where people live. How we build that surface is the subject of section 2.3.
 
 Concentration-response functions. The CRF is borrowed from epidemiology, not estimated by us. The art is in choosing the right function. For PM2.5 mortality the field has moved through several generations:
+
 - The Integrated Exposure-Response (IER) function (Burnett and colleagues 2014) was built to span the enormous global range of exposures by combining evidence from ambient air pollution, household smoke, and smoking.
 - The Global Exposure Mortality Model (GEMM) (Burnett and colleagues 2018) used only outdoor air pollution cohorts and produced substantially higher burden estimates, illustrating how much the choice of function matters.
 - The Global Burden of Disease project now uses a spline-based meta-regression (MR-BRT) to fit the relative-risk curve across studies. We applied this approach in our global cities work.
+
 You will not need to derive these, but you do need to understand that the choice of CRF is a major source of difference between studies, and that we should be explicit and consistent about which one we use and why.
 
 Baseline health rates. These come from vital statistics and from the GBD. The key methodological point, and one of my own research findings, is that using coarse, national average disease rates can badly misrepresent inequities within a city. A wealthy and a poor neighborhood in the same city can have very different baseline mortality, so applying a single national rate hides exactly the disparities we care about. Where we can, we use the most spatially resolved baseline rates available.
@@ -110,20 +112,24 @@ The methodological tools, finally, are milestones in their own right: BenMAP (EP
 ## 2.6 Vetted reading list for Part 2
 
 Concentration-response functions
+
 - Burnett RT and colleagues. "[An integrated risk function for estimating the global burden of disease attributable to ambient fine particulate matter exposure](https://pubmed.ncbi.nlm.nih.gov/?term=An+integrated+risk+function+for+estimating+the+global+burden+of+disease+attributable+to+ambient+fine+particulate+matter+exposure)." Environmental Health Perspectives, 2014;122:397-403. (The IER function.)
 - Burnett R and colleagues. "[Global estimates of mortality associated with long-term exposure to outdoor fine particulate matter](https://www.pnas.org/doi/10.1073/pnas.1803222115)." Proceedings of the National Academy of Sciences, 2018;115(38):9592-9597. (The GEMM.)
 
 Atmospheric and intervention modeling
+
 - Tessum CW, Hill JD, Marshall JD. "[InMAP: a model for air pollution interventions](https://doi.org/10.1371/journal.pone.0176131)." PLoS ONE, 2017;12(4):e0176131. (Open access. Our modeling engine; by our subcontractor's group.)
 - Thakrar SK and colleagues. "[Global, high-resolution, reduced-complexity air quality modeling for PM2.5 using InMAP](https://doi.org/10.1371/journal.pone.0268714)." PLoS ONE, 2022;17(5):e0268714. (Open access. The global version of InMAP.)
 - InMAP model home and code: [spatialmodel.com/inmap](http://spatialmodel.com/inmap/) and the [InMAP GitHub repository](https://github.com/spatialmodel/inmap).
 
 Satellite-derived exposure
+
 - Hammer MS and colleagues. "[Global estimates and long-term trends of fine particulate matter concentrations (1998-2018)](https://pubmed.ncbi.nlm.nih.gov/?term=Global+estimates+and+long-term+trends+of+fine+particulate+matter+concentrations)." Environmental Science and Technology, 2020;54(13):7879-7890. (DOI intentionally omitted here pending verification; the volume, issue, and pages are correct.)
 - van Donkelaar A and colleagues. "[Monthly global estimates of fine particulate matter and their uncertainty](https://pubs.acs.org/doi/10.1021/acs.est.1c05309)." Environmental Science and Technology, 2021;55(22):15287-15300.
 - Satellite PM2.5 data archive (Atmospheric Composition Analysis Group, Washington University in St. Louis): [dataset archive](https://sites.wustl.edu/acag/datasets/surface-pm2-5/) and [satpm.org](https://www.satpm.org).
 
 Tools and data for running HIAs
+
 - [U.S. EPA BenMAP-CE](https://www.epa.gov/benmap)
 - IHME Global Burden of Disease and GBD Compare: [research overview](https://www.healthdata.org/research-analysis/gbd) and [GBD Compare](https://vizhub.healthdata.org/gbd-compare/)
 - [Health Effects Institute, State of Global Air](https://www.stateofglobalair.org)

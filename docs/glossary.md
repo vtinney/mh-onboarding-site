@@ -3,6 +3,7 @@
 You will hear these constantly. Skim now, refer back later.
 
 Pollutants and chemistry
+
 - PM: particulate matter, tiny solid or liquid particles suspended in air.
 - PM2.5: fine particulate matter, particles 2.5 micrometers in diameter or smaller. The most important pollutant for chronic health effects. For scale, a human hair is roughly 50 to 70 micrometers wide.
 - PM10: coarse particulate matter, 10 micrometers or smaller (includes PM2.5).
@@ -14,6 +15,7 @@ Pollutants and chemistry
 - VOC: volatile organic compounds, a broad class of carbon-containing gases that help form ozone and secondary particles.
 
 Greenhouse gases and climate
+
 - GHG: greenhouse gas.
 - CO2: carbon dioxide, the dominant long-lived greenhouse gas.
 - CH4: methane, a potent, shorter-lived greenhouse gas and an ozone precursor.
@@ -21,6 +23,7 @@ Greenhouse gases and climate
 - GWP: global warming potential, a way to compare the warming effect of different gases over a chosen time horizon (commonly 20 or 100 years).
 
 Health and epidemiology
+
 - HIA: health impact assessment, the quantitative method we use to estimate how many health outcomes (deaths, hospitalizations, cases of disease) are attributable to a pollutant or avoided by a policy.
 - CRF: concentration-response function, the mathematical relationship between a level of exposure and the risk of a health outcome. What drives an HIA.
 - RR: relative risk, how much more likely an outcome is at a given exposure compared to a reference.
@@ -32,6 +35,7 @@ Health and epidemiology
 - TMREL: theoretical minimum risk exposure level, the low concentration below which we do not assign added risk.
 
 Exposure modeling
+
 - CTM: chemical transport model, a physics-and-chemistry simulation of how pollutants move and transform in the atmosphere (examples: GEOS-Chem, WRF-Chem, CMAQ).
 - InMAP: Intervention Model for Air Pollution, a reduced-complexity model that estimates how emission changes alter PM2.5 at high spatial resolution, quickly and on modest hardware. Central to the Monterrey modeling.
 - AOD: aerosol optical depth, a satellite measurement of how much light particles block, used to infer surface PM2.5.
@@ -40,6 +44,7 @@ Exposure modeling
 - LEAP-IBC: Low Emissions Analysis Platform, Integrated Benefits Calculator, a national-scale tool linking emissions scenarios to health co-benefits (relevant to the Brazil work).
 
 Organizations and places
+
 - EDF: Environmental Defense Fund (us).
 - INSP: Instituto Nacional de Salud Pública, Mexico's National Institute of Public Health, our lead partner on the Monterrey project.
 - UW: University of Washington (Julian Marshall, InMAP modeling subcontractor).

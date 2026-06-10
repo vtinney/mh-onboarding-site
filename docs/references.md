@@ -1,6 +1,7 @@
 # References: master list (all checked)
 
 Peer-reviewed articles
+
 - Southerland VA et al. [Global urban temporal trends in fine particulate matter (PM2.5) and attributable health burdens](https://doi.org/10.1016/S2542-5196%2821%2900350-8). Lancet Planet Health. 2022;6(2):e139-e146.
 - Anenberg SC et al. [Long-term trends in urban NO2 concentrations and associated pediatric asthma incidence](https://doi.org/10.1016/S2542-5196%2821%2900255-2). Lancet Planet Health. 2022.
 - Fuller R et al. [Pollution and health: a progress update](https://doi.org/10.1016/S2542-5196%2822%2900090-0). Lancet Planet Health. 2022.
@@ -19,6 +20,7 @@ Peer-reviewed articles
 - Landrigan PJ et al. [The Lancet Commission on pollution and health](https://pubmed.ncbi.nlm.nih.gov/?term=The+Lancet+Commission+on+pollution+and+health). Lancet. 2018.
 
 Resources, data, and tools
+
 - [WHO Global Air Quality Guidelines (2021)](https://www.who.int/publications/i/item/9789240034228)
 - IHME Global Burden of Disease: [research overview](https://www.healthdata.org/research-analysis/gbd) and the [GBD Compare tool](https://vizhub.healthdata.org/gbd-compare/)
 - [HEI State of Global Air](https://www.stateofglobalair.org)
@@ -29,6 +31,7 @@ Resources, data, and tools
 - [Geocomputation with R (free textbook)](https://r.geocompx.org)
 
 Internal documents to obtain from the team (not public)
+
 - The EDF Monterrey work plan (the 48-month month-by-month plan; this guide's Monterrey sections are drawn from it) and whatever live project tracker the team is using (via Alexandra Koeck).
 - PECC and PIGECA official plan documents and our internal mapping of their interventions to emission categories.
 - The 2018 Monterrey emissions inventory (Clean Air Institute) and the InMAP configuration memo, once available.

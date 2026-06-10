@@ -5,6 +5,7 @@ This part is the operational checklist: accounts, systems, required training, an
 ## 0.1 Accounts and access
 
 Get these set up first, ideally before or on day one, with IT and Alexandra:
+
 - EDF email and calendar [account/setup process].
 - Team messaging [Slack or Teams: workspace and the project channels to join].
 - Project management tool [the live tracker, for example Asana: board name and invite].
@@ -25,6 +26,7 @@ Get these set up first, ideally before or on day one, with IT and Alexandra:
 ## 0.3 Required training and compliance
 
 Some of these are gating, you may not be able to touch certain data until they are done:
+
 - Human-subjects research training [CITI or the EDF/INSP equivalent]. This matters because the project uses hospital-admissions data; see section 0.5.
 - Data security and privacy training [EDF requirement].
 - General EDF onboarding and IT security [standard new-hire modules].
@@ -40,6 +42,7 @@ Some of these are gating, you may not be able to touch certain data until they a
 ## 0.5 Data handling and ethics (read before touching project data)
 
 This is the one to take seriously early. The project links black carbon to hospital admissions, so it involves health data about real people.
+
 - Do not access or download any human-subjects or health data until the required training and approvals are confirmed (section 0.3).
 - Understand how project data is stored, who can access it, and how it is de-identified [protocol to be reviewed with me].
 - Keep sensitive data off personal devices and unapproved cloud storage; use only the approved project storage.
