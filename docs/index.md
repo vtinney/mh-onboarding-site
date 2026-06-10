@@ -1,16 +1,10 @@
 # Onboarding guide: air pollution, health impact assessment, and our projects
 
-A living reference for getting up to speed on the science we do and the projects you will be working on.
-
-Prepared for: Mackenzie (incoming High Meadows Fellow, starting July 2026)
-Prepared by: Veronica Southerland, Health Scientist, EDF Global Clean Air, Healthy Communities
-Status: living document, version 0.3. Adds practical onboarding, science-to-policy, mentorship, and diagrams. Monterrey sections built from the EDF work plan. Expect this to grow and change. If something is unclear, flag it and we will fix it.
-
 ---
 
 ## How to use this guide
 
-Welcome aboard. This guide is here to help you get up to speed in your first few months, even if you are coming in with little or no background in air pollution or environmental health. You do not need to read it cover to cover on day one. Here is a sensible path:
+Welcome aboard. This guide is here to help you get up to speed in your first few months. You do not need to read it cover to cover on day one. Here is a sensible path:
 
 1. Use Part 0, practical onboarding, as your week-one setup checklist (accounts, training, logistics). Much of it will be filled in with you.
 2. Start with Part 1, the primer. It explains what air pollution is, how it harms health, how we know that, and how greenhouse gases fit into the picture. Read the prose first, then dip into the vetted reading list at the end of Part 1 as time allows.
