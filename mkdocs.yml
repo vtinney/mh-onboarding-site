@@ -1,0 +1,60 @@
+site_name: Onboarding Guide — Air Quality & Health
+site_description: A living onboarding reference for the Global Clean Air team.
+repo_url: https://github.com/vtinney/mh-onboarding-site
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  font:
+    text: Source Serif 4
+    code: IBM Plex Mono
+  palette:
+    - scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.top
+    - navigation.sections
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.action.edit
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+nav:
+  - Home: index.md
+  - Practical onboarding: onboarding.md
+  - Glossary: glossary.md
+  - "Part 1 · Air pollution primer": primer.md
+  - "Part 2 · Health impact assessment": hia.md
+  - "Part 3 · The projects": projects.md
+  - "Part 4 · People": people.md
+  - "Part 5 · Getting started": getting-started.md
+  - "Part 6 · Mentorship & expectations": mentorship.md
+  - References: references.md

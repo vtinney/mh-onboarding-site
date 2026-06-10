@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&display=swap');
+
+:root {
+  --md-primary-fg-color:        #115e54;
+  --md-primary-fg-color--light: #19897a;
+  --md-primary-fg-color--dark:  #0d4a42;
+  --md-accent-fg-color:         #19897a;
+  --md-typeset-a-color:         #115e54;
+}
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color:        #19897a;
+  --md-accent-fg-color:         #2bb39f;
+  --md-typeset-a-color:         #4fd0bb;
+}
+
+/* Grotesk headings against the serif body */
+.md-typeset h1, .md-typeset h2, .md-typeset h3 {
+  font-family: "Space Grotesk", sans-serif;
+  letter-spacing: -0.01em;
+}
+.md-typeset h1 { font-weight: 700; }
+
+/* a little accent rule under each H1 */
+.md-typeset h1::after {
+  content: "";
+  display: block;
+  width: 2.2rem;
+  height: 3px;
+  margin-top: 0.5rem;
+  background: var(--md-primary-fg-color);
+  border-radius: 2px;
+}
+
+/* tidy mermaid diagrams */
+.md-typeset .mermaid {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 10px;
+  padding: 1rem;
+  background: #fff;
+}
+[data-md-color-scheme="slate"] .md-typeset .mermaid { background: #1f2733; }
