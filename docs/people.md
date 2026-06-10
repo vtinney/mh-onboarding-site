@@ -10,7 +10,7 @@ Sergio Sanchez. Senior Policy Director, Clean Air and Health at EDF (about 5% ef
 
 Tammy Thompson. Senior Air Quality Scientist at EDF (about 5% effort), and a long-standing collaborator of mine. On this project her role is specifically InMAP modeling coordination with the University of Washington; her involvement is limited to that modeling work.
 
-Alexandra Koeck. Project Manager, Healthy Communities, and the project manager for Monterrey (about 10% effort). Note the spelling, Alexandra, not Alexander (the work plan document itself currently has it as "Alexander" in places, which is an error worth fixing at the source). Alexandra owns the operational backbone: timelines, subcontractor oversight, meeting logistics, and the live project tracker. In your first week, plan to walk the Year 1 plan with her and me. She is the person to go to for "what is due, when, and who owns it."
+Alexandra Koeck. Project Manager, Healthy Communities, and the project manager for Monterrey (about 10% effort). Note the spelling, Alexandra, not Alexander (the work plan document itself currently has it as "Alexander" in places, which is an error worth fixing at the source). Alexandra runs the operational side: timelines, subcontractor oversight, meeting logistics, and the live project tracker. In your first week, plan to walk the Year 1 plan with her and me. She is the person to go to for "what is due, when, and who owns it."
 
 Sarah Vogel. A senior leader in EDF's Healthy Communities program, providing program-level oversight. (She is not on the day-to-day Monterrey project team in the work plan.) I sometimes draft materials on her behalf, so you may see her name on things our team supports. [Confirm exact title, for example senior vice president, before external use.]
 
@@ -30,9 +30,9 @@ Rola Salem. [Veronica to add: Rola's role/team at EDF, what she works on, and ho
 
 ## Subcontractors and academic partners
 
-Julian Marshall. Professor at the University of Washington (the work plan notes him as the Boeing Professor) and one of the original developers of InMAP, the reduced-complexity air quality model at the center of our Monterrey modeling. UW is a subcontractor leading the InMAP modeling, configuration, and runs for the metro area. His group's papers (Tessum, Hill, and Marshall 2017; Thakrar and colleagues 2022) are in the Part 2 reading list and are the best entry point to the modeling.
+Julian Marshall. Professor at the University of Washington (the work plan notes him as the Boeing Professor) and one of the original developers of InMAP, the reduced-complexity air quality model behind our Monterrey modeling. UW is a subcontractor leading the InMAP modeling, configuration, and runs for the metro area. His group's papers (Tessum, Hill, and Marshall 2017; Thakrar and colleagues 2022) are in the Part 2 reading list and are the best entry point to the modeling.
 
-Juliana Klakamp. Chief Operating Officer at the Clean Air Institute, leading emissions inventory access and emission-reduction scenario development for the Monterrey project (the Link 1 step from Part 2). The emissions inventory is the foundation the whole modeling chain rests on. Note that I, not Tammy, am EDF's primary point of contact with CAI.
+Juliana Klakamp. Chief Operating Officer at the Clean Air Institute, leading emissions inventory access and emission-reduction scenario development for the Monterrey project (the Link 1 step from Part 2). Everything in the modeling chain depends on the emissions inventory. Note that I, not Tammy, am EDF's primary point of contact with CAI.
 
 Violeta Múgica Álvarez. Researcher at UAM-Azcapotzalco (Universidad Autónoma Metropolitana) in Mexico City, an academic partner whose group contributes air quality monitoring data and atmospheric expertise to the Monterrey science. [Confirm exact title/role.]
 
@@ -40,7 +40,7 @@ Violeta Múgica Álvarez. Researcher at UAM-Azcapotzalco (Universidad Autónoma 
 
 INSP is the grant holder for the Monterrey project and our lead Mexican partner. These are the people you will encounter most.
 
-Marlene Cortez-Lugo. The lead applicant at INSP for the Monterrey project, and the principal Mexican-side scientific lead. (Our materials sometimes render the name as Marlene Cortés; confirm preferred spelling for external use.) A central relationship for the whole project.
+Marlene Cortez-Lugo. The lead applicant at INSP for the Monterrey project, and the principal Mexican-side scientific lead. (Our materials sometimes render the name as Marlene Cortés; confirm preferred spelling for external use.) One of the most important relationships on the project.
 
 Horacio Riojas. A senior environmental health researcher at INSP, with long-standing leadership in environmental epidemiology and air pollution and health in Mexico. A key scientific partner and a valuable person to learn from on the Mexican environmental health landscape. [Confirm exact current title, for example director of environmental health, before external use.]
 

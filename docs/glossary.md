@@ -4,7 +4,7 @@ You will hear these constantly. Skim now, refer back later.
 
 Pollutants and chemistry
 - PM: particulate matter, tiny solid or liquid particles suspended in air.
-- PM2.5: fine particulate matter, particles 2.5 micrometers in diameter or smaller. The single most important pollutant for chronic health effects. For scale, a human hair is roughly 50 to 70 micrometers wide.
+- PM2.5: fine particulate matter, particles 2.5 micrometers in diameter or smaller. The most important pollutant for chronic health effects. For scale, a human hair is roughly 50 to 70 micrometers wide.
 - PM10: coarse particulate matter, 10 micrometers or smaller (includes PM2.5).
 - BC: black carbon, the sooty, light-absorbing fraction of PM2.5 from incomplete combustion (diesel engines, biomass burning, some industry). It is both a health hazard and a powerful warming agent. Central to the Monterrey project.
 - NO2 and NOx: nitrogen dioxide and nitrogen oxides, combustion gases, largely from traffic and industry.
@@ -22,7 +22,7 @@ Greenhouse gases and climate
 
 Health and epidemiology
 - HIA: health impact assessment, the quantitative method we use to estimate how many health outcomes (deaths, hospitalizations, cases of disease) are attributable to a pollutant or avoided by a policy.
-- CRF: concentration-response function, the mathematical relationship between a level of exposure and the risk of a health outcome. The engine of an HIA.
+- CRF: concentration-response function, the mathematical relationship between a level of exposure and the risk of a health outcome. What drives an HIA.
 - RR: relative risk, how much more likely an outcome is at a given exposure compared to a reference.
 - PAF: population attributable fraction, the share of cases in a population attributable to an exposure.
 - DALY: disability-adjusted life year, a measure combining years of life lost and years lived with disability.

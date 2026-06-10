@@ -1,6 +1,6 @@
 # Part 0. Practical onboarding (first-week logistics)
 
-This part is the operational checklist: accounts, systems, required training, and the administrative basics. It is deliberately a template, the items in brackets are EDF- and grant-specific and will be filled in for you (or with you) in week one. Treat it as a setup punch list. None of it is hard, but getting it sorted early removes friction from everything that follows.
+This part is the operational checklist: accounts, systems, required training, and the administrative basics. It is deliberately a template, the items in brackets are EDF- and grant-specific and will be filled in for you (or with you) in week one. Treat it as a setup punch list. None of it is hard, but getting it sorted early makes everything that follows easier.
 
 ## 0.1 Accounts and access
 

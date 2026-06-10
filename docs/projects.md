@@ -2,7 +2,7 @@
 
 This part moves from a short tour of a project that is wrapping up, to the project you will spend most of your time on (Monterrey), to a practical introduction to the geospatial analysis you will be doing, and finally to the other work in our portfolio so you can see how it all connects.
 
-A quick map of the portfolio before we dive in. Most of our work applies the same exposure-to-health pipeline from Part 2 to Latin American settings, with a shared emphasis on short-lived climate pollutants, health co-benefits of climate and clean air policy, and subnational equity. LIMPIO (Mexico, oil-and-gas methane) is finishing. Monterrey (black carbon and PM2.5 in one metro area) is launching and is your main assignment. The Brazil short-lived climate pollutant work develops a subnational health-benefits framework. They are methodologically and strategically of a piece, which is the point.
+A quick map of the portfolio before we dive in. Most of our work applies the same exposure-to-health pipeline from Part 2 to Latin American settings, with a shared emphasis on short-lived climate pollutants, health co-benefits of climate and clean air policy, and subnational equity. LIMPIO (Mexico, oil-and-gas methane) is finishing. Monterrey (black carbon and PM2.5 in one metro area) is launching and is your main assignment. The Brazil short-lived climate pollutant work develops a subnational health-benefits framework. They share methods and strategy.
 
 ## 3.1 Mexico methane and health: the LIMPIO project (context only, you will not be staffed on this)
 
@@ -80,7 +80,7 @@ Concretely, the work plan has you stepping into a specific sequence. Because you
 - December 2026: building out the economic valuation framework with me.
 - January 2027: contributing to the inputs for Policy Brief #1, and attending the first annual symposium in Monterrey in person.
 
-Over Years 2 and 3, your work grows into the heart of the analysis: the full neighborhood-scale HIA, the sensitivity analyses and stratified results (by age, sex, socioeconomic status, and disease), the environmental justice analysis, and manuscript preparation, where you are a co-author on the first paper (the air quality and health co-benefits modeling) and work closely with me on the second (the neighborhood-scale equity analysis). You will also support stakeholder engagement and the policy briefs along the way.
+Over Years 2 and 3, your work grows into the main part of the analysis: the full neighborhood-scale HIA, the sensitivity analyses and stratified results (by age, sex, socioeconomic status, and disease), the environmental justice analysis, and manuscript preparation, where you are a co-author on the first paper (the air quality and health co-benefits modeling) and work closely with me on the second (the neighborhood-scale equity analysis). You will also support stakeholder engagement and the policy briefs along the way.
 
 A note on what you do not need to arrive knowing: you are not expected to run InMAP yourself or build the emissions inventory. You will learn enough about both to work fluently at the interface with them, but the modeling and inventory are the subcontractors' lanes. Your lane is turning their outputs into health and equity results, and communicating those. Much of the engagement and some materials are bilingual, so building toward working Spanish helps and is something the team supports.
 
@@ -147,11 +147,11 @@ A quick orientation to the key inputs and parameters the work plan specifies, so
 
 Almost everything we do is spatial: concentrations on a grid, people on a grid, disease rates by area, sources at points and along lines. So a working comfort with geospatial analysis is one of the most useful skills you can build here. This section is a practical orientation, not a course.
 
-The core mental model. A health impact assessment is, geometrically, a stack of aligned map layers: a concentration surface, a population surface, a baseline-disease-rate layer, and administrative boundaries. The analysis is largely about getting those layers onto a common grid and projection, multiplying them together cell by cell, and summing within the units you care about (a neighborhood, a municipality, the whole metro area). If you understand that you are stacking and combining aligned rasters and polygons, you understand the spatial core of the method.
+The core mental model. A health impact assessment is, geometrically, a stack of aligned map layers: a concentration surface, a population surface, a baseline-disease-rate layer, and administrative boundaries. The analysis is largely about getting those layers onto a common grid and projection, multiplying them together cell by cell, and summing within the units you care about (a neighborhood, a municipality, the whole metro area). If you understand that you are stacking and combining aligned rasters and polygons, you understand the spatial part of the method.
 
 Concepts worth knowing early:
 - Raster versus vector. Rasters are gridded surfaces (concentration fields, population grids, satellite products). Vectors are points, lines, and polygons (monitor locations, roads, administrative boundaries). HIA mixes both.
-- Coordinate reference systems and projections. Layers must share a projection before you combine them. Mismatched projections are the single most common source of silent error. Area-preserving projections matter when you are summing population or area.
+- Coordinate reference systems and projections. Layers must share a projection before you combine them. Mismatched projections are the most common source of silent error. Area-preserving projections matter when you are summing population or area.
 - Resolution and the modifiable areal unit problem. Results depend on the spatial scale of your inputs. As discussed in Part 2, coarse inputs average away inequities. The "modifiable areal unit problem" is the formal name for the fact that how you draw and size your units changes your answers, something to be deliberate about.
 - Population weighting and zonal statistics. Summarizing a concentration surface over a population grid, or over administrative polygons, is the everyday operation. These are "zonal statistics."
 
@@ -177,17 +177,17 @@ EDF's value-add is to push that national analysis to a subnational, equity-focus
 
 ### How the projects connect
 
-It is worth stepping back to see why these are one program rather than three unrelated grants:
+Why these are one program rather than three unrelated grants:
 - Shared scientific spine. LIMPIO (methane and ozone), Monterrey (black carbon and PM2.5), and the Brazil work (the full SLCP set) are all applications of the same exposure-to-health-to-economics pipeline from Part 2, to short-lived climate pollutants, in Latin America.
 - Shared strategic frame: co-benefits. Each project is built on the premise that climate action and clean air action are the same action, and that quantifying the health benefit strengthens the policy case. That frame is what makes the work fundable by health funders like the Wellcome Trust and relevant to climate ministries at the same time.
 - Shared equity emphasis. All three insist on subnational, distributional analysis, not just national totals, because the point is to show who is exposed and who benefits, and to inform interventions accordingly.
-- Shared methods and tools, transferable across settings. The InMAP modeling, the concentration-response and valuation methods, the satellite exposure data, and increasingly the framework documents themselves are designed to be portable, so a method honed in Mexico can support Brazil and beyond. Part of the long-game ambition is exactly this: methods that lower- and middle-income countries can adopt.
+- Shared methods and tools, transferable across settings. The InMAP modeling, the concentration-response and valuation methods, the satellite exposure data, and increasingly the framework documents themselves are designed to be portable, so a method honed in Mexico can support Brazil and beyond. Part of the long-term aim is exactly this: methods that lower- and middle-income countries can adopt.
 
 Understanding those connections will help you see how your Monterrey work fits a larger strategy, and why the skills you build are valuable well beyond a single project.
 
 ## 3.6 Science-to-policy translation: how the analysis becomes impact
 
-It is worth being explicit about something that shapes everything here. EDF is not a university department, it is an environmental organization whose purpose is to change real-world decisions. The science we do is rigorous because it has to be, but it is not done for its own sake. It is done so that a finance ministry, a state government, an air quality authority, or a community group can act differently. That orientation, science in service of decisions, is the difference between our work and a purely academic project, and it should inform how you approach your own pieces.
+One thing shapes everything here. EDF is not a university department, it is an environmental organization whose purpose is to change real-world decisions. The science we do is rigorous because it has to be, but it is not done for its own sake. It is done so that a finance ministry, a state government, an air quality authority, or a community group can act differently. That orientation, science in service of decisions, is the difference between our work and a purely academic project, and it should inform how you approach your own pieces.
 
 Who the audiences are. A single analysis usually has to speak to several audiences at once, and they care about different things:
 - Federal decision-makers (SEMARNAT and the owners of the PECC) care about national climate and air commitments and how interventions perform.
@@ -210,9 +210,9 @@ The craft of translation. A few moves recur in our work:
 - Lead with the decision-relevant finding, not the method. For a policymaker, "intervention X avoids roughly N deaths a year, worth $Y" comes first; the modeling comes later or in an appendix.
 - Monetize, because finance and planning ministries think in costs and benefits. This is why the value-of-a-statistical-life and cost-of-illness work in Part 2 matters: it puts health into the language of budgets.
 - Disaggregate to who and where. "This neighborhood benefits most" is far more actionable for a city than a metro-wide average. The equity and neighborhood-scale analysis is not just scientifically richer, it is what makes results usable locally.
-- Use the co-benefits frame to speak to climate and health audiences in one breath, which is the strategic heart of the program.
+- Use the co-benefits frame to speak to climate and health audiences at once. This is the main argument of the program.
 - Be precise about uncertainty rather than hiding it. Credibility is the whole asset; one oversold number can cost it. This is why our house style is to never dress up an approximation as precision, and to state ranges and assumptions plainly.
 
 Co-design, not just dissemination. Notice that engagement is built into the project from the start (the advisory-board workshops, the policy co-design workshop), not bolted on at the end. The point is that stakeholders help shape the questions, so the analysis answers things decision-makers actually need, and so the results land with people who helped build them. When you support engagement, you are not doing outreach about finished science, you are helping make sure the science is the right science.
 
-How you will contribute. Concretely, you will help draft policy-brief inputs, make figures and maps legible to non-scientists, ensure the numbers feeding external materials are exactly right, and support bilingual communication. Getting good at translation, holding rigor and clarity at the same time, is one of the most career-valuable things you can take from this fellowship.
+How you will contribute. Concretely, you will help draft policy-brief inputs, make figures and maps legible to non-scientists, ensure the numbers feeding external materials are exactly right, and support bilingual communication. Getting good at translation, holding rigor and clarity at the same time, is one of the most useful skills you can take from this fellowship.
