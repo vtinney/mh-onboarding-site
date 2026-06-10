@@ -110,20 +110,20 @@ The methodological tools, finally, are milestones in their own right: BenMAP (EP
 ## 2.6 Vetted reading list for Part 2
 
 Concentration-response functions
-- Burnett RT and colleagues. "An integrated risk function for estimating the global burden of disease attributable to ambient fine particulate matter exposure." Environmental Health Perspectives, 2014;122:397-403. (The IER function.) Find by title on PubMed / EHP.
-- Burnett R and colleagues. "Global estimates of mortality associated with long-term exposure to outdoor fine particulate matter." Proceedings of the National Academy of Sciences, 2018;115(38):9592-9597. doi:10.1073/pnas.1803222115. https://www.pnas.org/doi/10.1073/pnas.1803222115 (The GEMM.)
+- Burnett RT and colleagues. "[An integrated risk function for estimating the global burden of disease attributable to ambient fine particulate matter exposure](https://pubmed.ncbi.nlm.nih.gov/?term=An+integrated+risk+function+for+estimating+the+global+burden+of+disease+attributable+to+ambient+fine+particulate+matter+exposure)." Environmental Health Perspectives, 2014;122:397-403. (The IER function.)
+- Burnett R and colleagues. "[Global estimates of mortality associated with long-term exposure to outdoor fine particulate matter](https://www.pnas.org/doi/10.1073/pnas.1803222115)." Proceedings of the National Academy of Sciences, 2018;115(38):9592-9597. (The GEMM.)
 
 Atmospheric and intervention modeling
-- Tessum CW, Hill JD, Marshall JD. "InMAP: a model for air pollution interventions." PLoS ONE, 2017;12(4):e0176131. doi:10.1371/journal.pone.0176131. https://doi.org/10.1371/journal.pone.0176131 (Open access. Our modeling engine; by our subcontractor's group.)
-- Thakrar SK and colleagues. "Global, high-resolution, reduced-complexity air quality modeling for PM2.5 using InMAP." PLoS ONE, 2022;17(5):e0268714. doi:10.1371/journal.pone.0268714. https://doi.org/10.1371/journal.pone.0268714 (Open access. The global version of InMAP.)
-- InMAP model home and code: http://spatialmodel.com/inmap/ and the InMAP GitHub repository.
+- Tessum CW, Hill JD, Marshall JD. "[InMAP: a model for air pollution interventions](https://doi.org/10.1371/journal.pone.0176131)." PLoS ONE, 2017;12(4):e0176131. (Open access. Our modeling engine; by our subcontractor's group.)
+- Thakrar SK and colleagues. "[Global, high-resolution, reduced-complexity air quality modeling for PM2.5 using InMAP](https://doi.org/10.1371/journal.pone.0268714)." PLoS ONE, 2022;17(5):e0268714. (Open access. The global version of InMAP.)
+- InMAP model home and code: [spatialmodel.com/inmap](http://spatialmodel.com/inmap/) and the [InMAP GitHub repository](https://github.com/spatialmodel/inmap).
 
 Satellite-derived exposure
-- Hammer MS and colleagues. "Global estimates and long-term trends of fine particulate matter concentrations (1998-2018)." Environmental Science and Technology, 2020;54(13):7879-7890. Find by title on the ACS site (pubs.acs.org). (DOI intentionally omitted here pending verification, the volume, issue, and pages are correct.)
-- van Donkelaar A and colleagues. "Monthly global estimates of fine particulate matter and their uncertainty." Environmental Science and Technology, 2021;55(22):15287-15300. doi:10.1021/acs.est.1c05309. https://pubs.acs.org/doi/10.1021/acs.est.1c05309
-- Satellite PM2.5 data archive (Atmospheric Composition Analysis Group, Washington University in St. Louis): https://sites.wustl.edu/acag/datasets/surface-pm2-5/ and https://www.satpm.org
+- Hammer MS and colleagues. "[Global estimates and long-term trends of fine particulate matter concentrations (1998-2018)](https://pubmed.ncbi.nlm.nih.gov/?term=Global+estimates+and+long-term+trends+of+fine+particulate+matter+concentrations)." Environmental Science and Technology, 2020;54(13):7879-7890. (DOI intentionally omitted here pending verification; the volume, issue, and pages are correct.)
+- van Donkelaar A and colleagues. "[Monthly global estimates of fine particulate matter and their uncertainty](https://pubs.acs.org/doi/10.1021/acs.est.1c05309)." Environmental Science and Technology, 2021;55(22):15287-15300.
+- Satellite PM2.5 data archive (Atmospheric Composition Analysis Group, Washington University in St. Louis): [dataset archive](https://sites.wustl.edu/acag/datasets/surface-pm2-5/) and [satpm.org](https://www.satpm.org).
 
 Tools and data for running HIAs
-- U.S. EPA BenMAP-CE: https://www.epa.gov/benmap
-- IHME Global Burden of Disease and GBD Compare: https://www.healthdata.org/research-analysis/gbd and https://vizhub.healthdata.org/gbd-compare/
-- Health Effects Institute, State of Global Air: https://www.stateofglobalair.org
+- [U.S. EPA BenMAP-CE](https://www.epa.gov/benmap)
+- IHME Global Burden of Disease and GBD Compare: [research overview](https://www.healthdata.org/research-analysis/gbd) and [GBD Compare](https://vizhub.healthdata.org/gbd-compare/)
+- [Health Effects Institute, State of Global Air](https://www.stateofglobalair.org)
