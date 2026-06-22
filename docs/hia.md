@@ -1,23 +1,23 @@
-# Part 2. Health impact assessment: the method behind most of our work
+# Part 2. Health impact assessment
 
 ## 2.1 What a health impact assessment is
 
-A health impact assessment (HIA), in our quantitative sense, answers a deceptively simple question: how many health outcomes are caused by a given level of air pollution, or how many would be avoided by a given policy? The output is usually a number of deaths, hospital admissions, or asthma cases, often with a monetized value attached and a confidence interval around it.
+A health impact assessment (HIA) answers the question: how many health outcomes are caused by a given level of air pollution, or how many would be avoided by a given policy? The output is usually a number of deaths, hospital admissions, or asthma cases, often with a monetized value attached and a confidence interval around it.
 
-Mechanically, almost every air pollution HIA multiplies four ingredients together, grid cell by grid cell or population by population, and then sums:
+Mechanically, almost every air pollution HIA multiplies four ingredients together:
 
 1. Exposure: the concentration of the pollutant where people actually are.
 2. Concentration-response function (CRF): how much risk rises per unit of exposure, from epidemiology.
 3. Baseline health rate: how common the outcome already is in that population (for example, the underlying death rate from heart disease).
 4. Population: how many people of the relevant age are exposed.
 
-The basic health impact function takes the exposure and the CRF to compute an attributable fraction (the share of the baseline outcome attributable to the pollutant), then applies that fraction to the baseline rate and the population to get a count of attributable cases. Change the exposure (say, under a clean air policy) and rerun, and the difference is the avoided burden. That is the whole logic. The sophistication is all in getting each of the four ingredients right.
+The basic health impact function takes the exposure and the CRF to compute an attributable fraction (the share of the baseline outcome attributable to the pollutant), then applies that fraction to the baseline rate and the population to get a count of attributable cases. Change the exposure (say, under a clean air policy) and rerun, and the difference is the avoided burden. 
 
-Each ingredient matters, and it is easy to over-focus on exposure and overlook the rest. Two cities with identical pollution can have very different attributable death counts if their populations differ in age or in underlying disease rates. An older population with high background heart disease will show a larger PM2.5 burden than a young, healthy one at the same concentration. This is not a technicality: baseline health and demography drive the results as much as the pollution does, and it is one reason high-resolution baseline data matter so much (more below).
+Two cities with identical pollution can have very different attributable death counts if their populations differ in age or in underlying disease rates. An older population with high background heart disease will show a larger PM2.5 burden than a young, healthy one at the same concentration. This is not a technicality: baseline health and demography drive the results as much as the pollution does, and it is one reason high-resolution baseline data matter so much (more below).
 
 ## 2.2 The four inputs in more depth
 
-Exposure (the concentration term). Ideally we want the long-term average concentration each person breathes. We never have that exactly, so we estimate it, usually as a gridded surface of annual-average concentrations that we overlay on where people live. How we build that surface is the subject of section 2.3.
+Exposure (the concentration term). Ideally we want the long-term average concentration each person breathes. We never have that exactly, so we estimate it, usually as a gridded surface of annual-average concentrations that we overlay on where people live. 
 
 Concentration-response functions. The CRF is borrowed from epidemiology, not estimated by us. The art is in choosing the right function. For PM2.5 mortality the field has moved through several generations:
 
@@ -25,13 +25,13 @@ Concentration-response functions. The CRF is borrowed from epidemiology, not est
 - The Global Exposure Mortality Model (GEMM) (Burnett and colleagues 2018) used only outdoor air pollution cohorts and produced substantially higher burden estimates, illustrating how much the choice of function matters.
 - The Global Burden of Disease project now uses a spline-based meta-regression (MR-BRT) to fit the relative-risk curve across studies. We applied this approach in our global cities work.
 
-You will not need to derive these, but you do need to understand that the choice of CRF is a major source of difference between studies, and that we should be explicit and consistent about which one we use and why.
+You will not need to derive these, only that the choice of CRF is a major source of difference between studies.
 
-Baseline health rates. These come from vital statistics and from the GBD. The key methodological point, and one of my own research findings, is that using coarse, national average disease rates can badly misrepresent inequities within a city. A wealthy and a poor neighborhood in the same city can have very different baseline mortality, so applying a single national rate hides exactly the disparities we care about. Where we can, we use the most spatially resolved baseline rates available.
+Baseline health rates. These come from vital statistics and from the GBD. Using coarse, national average disease rates can misrepresent inequities within a city. A wealthy and a poor neighborhood in the same city can have very different baseline mortality, so applying a single national rate hides exactly the disparities we care about. Where we can, we use the most spatially resolved baseline rates available.
 
-Population. Gridded population datasets (for example WorldPop and the Gridded Population of the World) place people in space so we can match them to the concentration surface. The choice of population dataset and how it is disaggregated can shift urban results, something we documented in the global cities study.
+Population. Gridded population datasets (for example WorldPop and the Gridded Population of the World) place people in space so we can match them to the concentration surface. The choice of population dataset and how it is disaggregated can shift urban results.
 
-Putting numbers on value: economic valuation. Many of our deliverables translate health outcomes into money, because that is the language of cost-benefit analysis and of finance ministries. Avoided deaths are valued using a value of a statistical life (VSL), and illnesses using cost-of-illness or willingness-to-pay estimates, adjusted for the income level of the country. This is where the health science meets policy. It is useful and also genuinely contested (discounting the future, assigning monetary value to a life, distributional fairness), so we handle it carefully and transparently.
+Putting numbers on value: economic valuation. Many of our deliverables translate health outcomes into money, because that is the language of cost-benefit analysis and of finance ministries. Avoided deaths are valued using a value of a statistical life (VSL), and illnesses using cost-of-illness or willingness-to-pay estimates, adjusted for the income level of the country.
 
 ## 2.3 The exposure pipeline: from emissions to concentrations to health (read this twice)
 
@@ -49,9 +49,9 @@ Emissions are not the same as exposure. Once in the air, pollutants are blown by
 
 There are two broad families:
 
-Chemical transport models (CTMs), such as GEOS-Chem, WRF-Chem, and CMAQ, simulate the physics and chemistry of the atmosphere in detail. They are the gold standard, but they demand expertise, large computing resources, and long run times, which makes running many policy scenarios impractical, especially in lower-resourced settings.
+Chemical transport models (CTMs), such as GEOS-Chem, WRF-Chem, CAMx and CMAQ, simulate the physics and chemistry of the atmosphere in detail. They are the gold standard, but they require expertise, large computing resources, and long run times, which makes running many policy scenarios sometimes impractical, especially in lower-resourced settings.
 
-Reduced-complexity models, most importantly InMAP (the Intervention Model for Air Pollution), approximate that chemistry and transport well enough to estimate how a change in emissions changes annual-average PM2.5, at high spatial resolution, fast, and on an ordinary computer. InMAP was developed by Julian Marshall (now at the University of Washington, and our modeling subcontractor on Monterrey) with colleagues, and was published by Tessum, Hill, and Marshall in 2017; a global version followed (Thakrar and colleagues 2022). InMAP is purpose-built for exactly our kind of question, comparing emission scenarios and seeing how the resulting PM2.5 is distributed across different communities, which is why it is the modeling engine for Monterrey and why it is well suited to equity analysis. It is open source, and you can read about it and access the code through the links in the reading list.
+Reduced-complexity models, most importantly InMAP (the Intervention Model for Air Pollution), approximate that chemistry and transport well enough to estimate how a change in emissions changes annual-average PM2.5, at high spatial resolution, fast, and on an ordinary computer. InMAP was developed by Julian Marshall (now at the University of Washington, and our modeling subcontractor on Monterrey) with colleagues, and was published by Tessum, Hill, and Marshall in 2017; a global version followed (Thakrar and colleagues 2022). InMAP is purpose-built for exactly our kind of question, comparing emission scenarios and seeing how the resulting PM2.5 is distributed across different communities, which is why it is the modeling engine for Monterrey and why it is well suited to equity analysis. 
 
 The practical takeaway: we feed the emissions difference from Link 1 into InMAP, and InMAP tells us how concentrations change, neighborhood by neighborhood.
 
@@ -59,11 +59,11 @@ The practical takeaway: we feed the emissions difference from Link 1 into InMAP,
 
 The model output is a gridded surface of concentrations. To turn that into exposure, we overlay it on gridded population so each person is assigned the concentration where they live, and we compute population-weighted concentrations. Population weighting matters: a high concentration over an empty industrial zone contributes little to exposure, while a moderate concentration over a dense neighborhood contributes a lot.
 
-We also calibrate and check modeled concentrations against real measurements wherever possible. This is why the Monterrey project invests in building out a black carbon monitoring network, ground monitors anchor and validate the modeled surfaces, and they enable the short-term epidemiology (linking daily black carbon to daily hospital admissions) that modeling alone cannot provide. Satellites are a third source of concentration information, covered in section 2.4.
+We also calibrate and check modeled concentrations against real measurements wherever possible. This is why the Monterrey project invests in building out a black carbon monitoring network, ground monitors anchor and validate the modeled surfaces, and they enable the short-term epidemiology (linking daily black carbon to daily hospital admissions) that modeling alone cannot provide. Satellites are a third source of concentration information.
 
 ### Link 4: The health impact assessment (turning concentrations into outcomes)
 
-Now we are back to section 2.1. We take the population-weighted concentration (or the change in it under a policy), apply the chosen concentration-response function, multiply by the baseline disease rate and population, and sum to get attributable or avoided health outcomes. Add valuation and you have the economic benefit. The tool many practitioners use to operationalize this last step is the U.S. EPA's BenMAP-CE, which packages the health impact function, default CRFs, and valuation into a usable platform.
+We take the population-weighted concentration (or the change in it under a policy), apply the chosen concentration-response function, multiply by the baseline disease rate and population, and sum to get attributable or avoided health outcomes. Add valuation and you have the economic benefit. The tool many practitioners use to operationalize this last step is the U.S. EPA's BenMAP-CE, which packages the health impact function, default CRFs, and valuation into a usable platform.
 
 ### The chain in one sentence
 
@@ -85,11 +85,11 @@ flowchart TD
 
 ## 2.4 Satellites, spatial resolution, and equity
 
-A persistent problem in this field, and one my own research deals with, is that the places with the worst air pollution often have the fewest ground monitors. Much of Latin America, Africa, and South Asia has sparse or no regulatory monitoring networks. If you can only measure pollution where there are monitors, you cannot assess the health burden where most of it occurs. Satellites are the main tool for solving this.
+A persistent problem in this field is that the places with the worst air pollution often have the fewest ground monitors. Much of Latin America, Africa, and South Asia has sparse or no regulatory monitoring networks. If you can only measure pollution where there are monitors, you cannot assess the health burden where most of it occurs. Satellites are the main tool for solving this.
 
-How satellite-derived exposure works. Earth-observing satellites measure aerosol optical depth (AOD), essentially how much sunlight airborne particles scatter and absorb in a vertical column of atmosphere. AOD is not the same as ground-level PM2.5, so researchers combine satellite AOD with a chemical transport model (which relates the column to the surface) and then calibrate the result to whatever ground monitors do exist, often using a geographically weighted regression (GWR). The output is a gridded, global surface of estimated surface PM2.5, available even where there is not a single monitor. The most widely used such product comes from the Atmospheric Composition Analysis Group (van Donkelaar, Hammer, Martin, and colleagues), with the methodology described in Hammer and colleagues (2020) and van Donkelaar and colleagues (2021); the data are freely downloadable (link in the reading list). These data are what our global cities work uses for exposure.
+How satellite-derived exposure works. Earth-observing satellites measure aerosol optical depth (AOD), essentially how much sunlight airborne particles scatter and absorb in a vertical column of atmosphere. AOD is not the same as ground-level PM2.5, so researchers combine satellite AOD with a chemical transport model (which relates the column to the surface) and then calibrate the result to whatever ground monitors do exist, often using a geographically weighted regression (GWR). The output is a gridded, global surface of estimated surface PM2.5, available even where there is not a single monitor. The most widely used such product comes from the Atmospheric Composition Analysis Group (van Donkelaar, Hammer, Martin, and colleagues), with the methodology described in Hammer and colleagues (2020) and van Donkelaar and colleagues (2021); the data are freely downloadable (link in the reading list). 
 
-Why resolution matters for equity. Air pollution and the populations most harmed by it are not uniformly distributed. Highways, ports, industrial clusters, and the lower-income communities that are often sited near them experience concentrations very different from a city's average. If you assess health impacts using coarse, citywide or national-average concentrations and coarse baseline disease rates, you average away precisely the disparities you should be measuring. Higher spatial resolution, in both the concentration surface and the baseline health data, lets you see intra-urban inequities: who actually bears the burden, not just how much burden there is in aggregate. My own work has shown that using high-resolution baseline disease rates, not just high-resolution pollution, is essential to capturing these within-city inequities, because demography and underlying health vary across a city as sharply as pollution does.
+Why resolution matters for equity. Air pollution and the populations most harmed by it are not uniformly distributed. Highways, ports, industrial clusters, and the lower-income communities that are often sited near them experience concentrations very different from a city's average. If you assess health impacts using coarse, citywide or national-average concentrations and coarse baseline disease rates, you average away precisely the disparities you should be measuring. Higher spatial resolution, in both the concentration surface and the baseline health data, lets you see intra-urban inequities: who actually bears the burden, not just how much burden there is in aggregate.
 
 This is also exactly why InMAP is valuable: it produces high-resolution concentration changes cheaply, so we can ask not only "how many deaths does this policy avoid" but "whose deaths, in which neighborhoods." Equity is not an add-on to the analysis. With the right resolution, it is something the analysis can measure directly. Who is exposed and who benefits is the question the Monterrey and Brazil projects are built to answer.
 
