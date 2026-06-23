@@ -7,7 +7,6 @@ Get these set up first, ideally before or on day one, with IT and Alexandra:
 - EDF email and calendar setup.
 - Team messaging - Slack
 - Project management tool - Asana
-- Reference manager [for example Zotero: the shared project library, if we keep one].
 - VPN
 - Access to timekeeping and other Microsoft apps.
 
