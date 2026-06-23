@@ -3,8 +3,7 @@
 Schedule for your first two weeks, **Monday July 6 to Friday July 17, 2026**. Weekends (July 11 and 12) are off, and Fridays are summer half-days.
 
 
-<div class="sched-toolbar" markdown="0">
-  <span class="sched-hint">Tip: type to plan, then <strong>Print</strong> for a one-page handout. Browser edits stay on this device; edit <code>schedule.md</code> to publish.</span>
+Browser edits stay on this device; edit <code>schedule.md</code> to publish.</span>
   <span class="sched-actions">
     <span class="sched-status" data-status></span>
     <button type="button" data-reset>Reset to suggested</button>
