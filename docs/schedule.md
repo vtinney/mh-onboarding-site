@@ -1,8 +1,7 @@
 # Two-week onboarding schedule
 
-Mackenzie's first two weeks, **Monday July 6 to Friday July 17, 2026**. Weekends (July 11 and 12) are off.
+Schedule for your first two weeks, **Monday July 6 to Friday July 17, 2026**.
 
-The cells below are filled with a suggested plan drawn from Part 5 of this guide. Nothing here is fixed: type directly in any day to add, change, or remove items, and each day holds as many entries as you need.
 
 !!! note "Two ways to edit"
     - **Plan live in your browser.** Click into any day and type. Press Enter to start a new line. Your changes save automatically, but only in the browser you are using (they are not shared and not published).
