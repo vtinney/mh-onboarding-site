@@ -26,6 +26,3 @@
 - Feedback runs both ways. I will give you regular feedback, and I want yours. Tell me what is unclear or missing.
 - A note on wellbeing: sustainable pace matters, and so does asking for help, including outside work. If something in your workload or circumstances is making things hard, raise it with me early; we can adjust.
 
-## 6.6 Authorship and credit
-
-On the manuscripts, authorship follows standard scientific norms (for example the ICMJE criteria: substantial contribution to the work, involvement in drafting or revising, approval of the final version, and accountability). You are slated as a co-author on the first paper and a close contributor on the second. We will discuss authorship and contribution expectations openly and early for any output you work on, so credit is clear from the start rather than negotiated at the end.
