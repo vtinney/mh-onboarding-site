@@ -1,5 +1,6 @@
 # Onboarding guide: air pollution, health impact assessment, and our projects
 
+## Welcome Makenzie to EDF!
 ---
 
 ## How to use this guide
