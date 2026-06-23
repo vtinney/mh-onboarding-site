@@ -1,6 +1,6 @@
 /* Two-week onboarding schedule: live editing, per-browser autosave, print, reset. */
 (function () {
-  var STORAGE_PREFIX = "mh-schedule:";
+  var STORAGE_PREFIX = "mh-schedule:v2:";
 
   function initSchedule() {
     var grid = document.querySelector("[data-schedule]");
