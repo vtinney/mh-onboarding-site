@@ -50,7 +50,7 @@ Schedule for your first two weeks, **Monday July 6 to Friday July 17, 2026**. We
   </div>
 
   <div class="sched-week">
-    <div class="sched-week-label">Week 2 &middot; Foundations &amp; the CRF review</div>
+    <div class="sched-week-label">Week 2 &middot; Foundations</div>
     <table class="sched-table">
       <thead>
         <tr>
