@@ -3,10 +3,6 @@
 Schedule for your first two weeks, **Monday July 6 to Friday July 17, 2026**. Weekends (July 11 and 12) are off, and Fridays are summer half-days.
 
 
-!!! note "Two ways to edit"
-    - **Plan live in your browser.** Click into any day and type. Press Enter to start a new line. Your changes save automatically, but only in the browser you are using (they are not shared and not published).
-    - **Publish it for Mackenzie.** To make the schedule official on the live site, edit `docs/schedule.md` (each entry in a day is a `<div class="ev">…</div>` line) and commit, exactly like every other page. Use **Reset to suggested** to clear your local edits and pull the published version back.
-
 <div class="sched-toolbar" markdown="0">
   <span class="sched-hint">Tip: type to plan, then <strong>Print</strong> for a one-page handout. Browser edits stay on this device; edit <code>schedule.md</code> to publish.</span>
   <span class="sched-actions">
