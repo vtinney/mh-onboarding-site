@@ -37,6 +37,7 @@ extra_css:
 extra_javascript:
   - https://cdn.jsdelivr.net/npm/svg-pan-zoom@3.6.1/dist/svg-pan-zoom.min.js
   - javascripts/mermaid-zoom.js
+  - javascripts/schedule.js
 
 markdown_extensions:
   - admonition
@@ -54,6 +55,7 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Practical onboarding: onboarding.md
+  - Two-week schedule: schedule.md
   - Glossary: glossary.md
   - "Part 1 · Air pollution primer": primer.md
   - "Part 2 · Health impact assessment": hia.md

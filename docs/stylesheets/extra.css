@@ -105,3 +105,132 @@
 
 /* svg-pan-zoom's built-in +/- controls */
 .mermaid-zoom-viewport .svg-pan-zoom-control { transform: scale(1.15); }
+
+/* ===== Two-week onboarding schedule ===== */
+.sched-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem 0 1.25rem;
+  padding: 0.6rem 0.8rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 10px;
+  background: var(--md-default-fg-color--lightest);
+  font-size: 0.72rem;
+}
+.sched-hint {
+  color: var(--md-default-fg-color--light);
+  max-width: 62ch;
+  line-height: 1.5;
+}
+.sched-actions { display: flex; align-items: center; gap: 0.5rem; }
+.sched-status {
+  color: var(--md-primary-fg-color);
+  font-weight: 600;
+  min-width: 10ch;
+  text-align: right;
+}
+.sched-toolbar button {
+  appearance: none;
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.72rem;
+  font-weight: 600;
+  border: 1px solid var(--md-primary-fg-color);
+  color: #fff;
+  background: var(--md-primary-fg-color);
+  border-radius: 6px;
+  padding: 0.25rem 0.8rem;
+  line-height: 1.4;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+.sched-toolbar button[data-reset] { background: transparent; color: var(--md-primary-fg-color); }
+.sched-toolbar button:hover { background: var(--md-primary-fg-color--dark); color: #fff; }
+
+.sched-week { margin: 0 0 1.5rem; }
+.sched-week-label {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 600;
+  font-size: 0.8rem;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--md-primary-fg-color);
+  margin: 0 0 0.45rem;
+}
+.sched-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 6px;
+  table-layout: fixed;
+}
+.sched-table th {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 600;
+  font-size: 0.72rem;
+  text-align: left;
+  padding: 0.35rem 0.5rem;
+  color: var(--md-default-fg-color);
+  border-bottom: 2px solid var(--md-primary-fg-color);
+}
+.sched-table th span {
+  display: block;
+  font-weight: 500;
+  font-size: 0.68rem;
+  color: var(--md-default-fg-color--light);
+}
+.sched-table td {
+  vertical-align: top;
+  padding: 0;
+  width: 20%;
+}
+.day {
+  min-height: 155px;
+  padding: 0.5rem 0.55rem;
+  border-radius: 8px;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  background: var(--md-default-fg-color--lightest);
+  font-size: 0.72rem;
+  line-height: 1.45;
+  outline: none;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
+}
+.day:hover { border-color: var(--md-default-fg-color--lighter); }
+.day:focus {
+  border-color: var(--md-primary-fg-color);
+  box-shadow: 0 0 0 2px var(--md-accent-fg-color);
+  background: var(--md-default-bg-color);
+}
+.day ul { margin: 0; padding-left: 1.05em; }
+.day li { margin: 0 0 0.35rem; }
+
+@media (max-width: 900px) {
+  .sched-table,
+  .sched-table thead,
+  .sched-table tbody,
+  .sched-table tr,
+  .sched-table th,
+  .sched-table td { display: block; width: 100%; }
+  .sched-table th { border-bottom: 1px solid var(--md-primary-fg-color); margin-top: 0.6rem; }
+  .sched-table td { margin-bottom: 0.4rem; }
+  .day { min-height: 0; }
+}
+
+@media print {
+  .md-header,
+  .md-sidebar,
+  .md-footer,
+  .md-tabs,
+  .md-content__button,
+  .sched-toolbar { display: none !important; }
+  .md-main__inner, .md-content { margin: 0 !important; }
+  .md-content__inner { padding-top: 0 !important; }
+  .sched-week { break-inside: avoid; page-break-inside: avoid; }
+  .day {
+    min-height: 120px;
+    border: 1px solid #999;
+    background: #fff;
+  }
+  @page { size: landscape; margin: 1cm; }
+}
