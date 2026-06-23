@@ -1,4 +1,4 @@
-# References: master list (all checked)
+# References: master list
 
 Peer-reviewed articles
 
