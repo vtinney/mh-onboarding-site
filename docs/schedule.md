@@ -1,6 +1,6 @@
 # Two-week onboarding schedule
 
-Schedule for your first two weeks, **Monday July 6 to Friday July 17, 2026**. Weekends (July 11 and 12) are off, and Fridays are summer half-days.
+Schedule for your first two weeks, **Monday July 6 to Friday July 17, 2026**. Fridays are summer half-days.
 
 <div class="sched" data-schedule markdown="0">
 
